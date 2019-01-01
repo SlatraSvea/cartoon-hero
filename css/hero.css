@@ -7,8 +7,9 @@ html, body{
 
 header{
 		background-color: #00b35c;
-		padding: 40px;
+		padding: 10px;
 		text-align: center;
+		margin: 0 60px;
 }
 
 h1{
@@ -19,8 +20,16 @@ h1{
 	text-transform: uppercase;
 }
 
+h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #00b35c;
+	text-shadow: 0 4px 20px white;
+}
+
 header img{
-	border-radius: 150px;
+	border-radius: 0;
 	width: 500px;
 	border: 10px dashed #ffcc33;
 	box-shadow: 0 10px 20px black;
@@ -31,6 +40,8 @@ header img{
 	margin: 0 auto;
 	padding: 0 20px;
 	background: #bcf6d0;
+	text-align: center;
+
 }
 
 img.big-image{
@@ -45,8 +56,8 @@ p.caption{
 
 ul{
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	padding: 20px;
+	margin: 20px;
 }
 
 a{
