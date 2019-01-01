@@ -1,6 +1,8 @@
 html, body{
 	font-family: Calibri; 
 	margin: 0;
+	background-image: url('../img/jolly-roger.jpg');
+	background-repeat: repeat;
 }
 
 header{
@@ -12,21 +14,23 @@ header{
 h1{
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 }
 
 header img{
 	border-radius: 150px;
 	width: 500px;
-	border: 10px dashed #990000;
+	border: 10px dashed #ffcc33;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 20px;
-	background-image: "https://i.ebayimg.com/images/g/4AUAAOSwaBNZj3rD/s-l300.jpg";
-	background-repeat: center;
-
+	background: #bcf6d0;
 }
 
 img.big-image{
@@ -35,7 +39,7 @@ img.big-image{
 
 p.caption{
 	font-size: 16px;
-	color: lightgrey;
+	color: #09431d;
 	font-style: italic;
 }
 
@@ -50,9 +54,14 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	font-style: italic;
+	color: #997300;
+}
+
 footer{
 	padding: 40px 20px;
-	background-color: #e6e6e6;
+	background-color: #e6fff5;
 	margin-top: 20px;
 }
 
